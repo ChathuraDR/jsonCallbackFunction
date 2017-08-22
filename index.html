@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Validation</title>
+    <link rel="stylesheet" href="css/myStyle.css">
+</head>
+<body>
+	<form id="signupform" class="signupform" method="post">
+        <label>Email</label>
+        <input id="email" type="email" name="email" placeholder="Enter your email"><p id="emailerror" style="color: rgba(163,0,0,0.99); display: none">Email is already exist</p><br>
+	    <label>Password</label>
+        <input type="password" name="password" placeholder="Enter Password" minlength="5" id="password"><br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/checkEmail.js"></script>
+</body>
+</html>

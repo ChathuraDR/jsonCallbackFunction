@@ -1,0 +1,17 @@
+#test {
+    padding: 50px 0px 0px 0px;
+}
+.validation {
+    color: #000000;
+}
+.validation input[type=email] {
+
+    border: 1px solid #cc0d23;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input{
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
